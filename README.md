@@ -12,7 +12,7 @@ VSCode 插件，支持直接在 Markdown 文件中 **粘贴截图** 和 **选择
 * 使用 shift + p, 粘贴板里面的图片会直接上传至cos
 * 使用 shift + o, 选择本地文件上传至cos
 
-![demo.gif](https://galenye-1251496585.cos.ap-guangzhou.myqcloud.com/demo.gif)
+
 
 ## 参数配置
 
@@ -38,6 +38,18 @@ VSCode 插件，支持直接在 Markdown 文件中 **粘贴截图** 和 **选择
     "tencentCOSUpload.localPath": "/tmp/.tencentCOSUpload"
 }
 ```
+![20190514052406_de9da1aef9662023794f489ccc87de95.png](https://images-1255533533.cos.ap-shanghai.myqcloud.com/20190514052406_de9da1aef9662023794f489ccc87de95.png)
+ 
+### 主要填写的五个参数
+#### 1.存储桶的名称
+   >（你创建的名字+后缀数字ID）
+#### 2.存储桶的域名
+   >（基本配置里有）
+#### 3.存储桶的所属区域
+   >（你选择后会有，记得复制英文并且去掉外面的括号）
+#### 4.存储桶的API密钥ID与KEY
+   >你的密钥管理里有，直接一一复制和对应即可
+
 
 -----------------------------------------------------------------------------------------------------------
 
